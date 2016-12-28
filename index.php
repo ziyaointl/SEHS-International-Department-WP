@@ -26,7 +26,7 @@
     ?>
 
     <?php
-    $newsPosts = new WP_Query('cat=2&posts_per_page=1');
+    $newsPosts = new WP_Query('cat=2,-3&posts_per_page=1');
     if ($newsPosts->have_posts()):
     while ($newsPosts->have_posts()):
     $newsPosts->the_post(); ?>

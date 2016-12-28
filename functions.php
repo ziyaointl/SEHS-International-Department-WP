@@ -23,7 +23,7 @@ function my_post_queries( $query ) {
         if ($query->is_main_query() && $query->is_post_type_archive('club') && !is_admin())
             $query->set('posts_per_page', 100);
         if ($query->is_main_query() && $query->is_category() && !is_admin())
-            $query->set('posts_per_page', 5);
+            $query->set('posts_per_page', 10);
 
     }
 }
