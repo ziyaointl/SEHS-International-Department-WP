@@ -36,43 +36,43 @@
                 <ul class="nav navbar-nav navbar-right">
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
-                           aria-expanded="false">News</a>
+                           aria-expanded="false">新闻</a>
                         <ul class="dropdown-menu">
-                            <li><a href="<?php echo home_url(); ?>/category/news">All</a></li>
-                            <li><a href="<?php echo home_url(); ?>/category/campus">Campus</a></li>
-                            <li><a href="<?php echo home_url(); ?>/category/exchange">Exchange</a></li>
+                            <li><a href="<?php echo home_url(); ?>/category/news">全部</a></li>
+                            <li><a href="<?php echo home_url(); ?>/category/campus">校园</a></li>
+                            <li><a href="<?php echo home_url(); ?>/category/exchange">交流</a></li>
                         </ul>
                     </li>
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
-                           aria-expanded="false">About</a>
+                           aria-expanded="false">关于</a>
                         <ul class="dropdown-menu">
-                            <li><a href="<?php echo home_url(); ?>/about-us">About Us</a></li>
-                            <li><a href="<?php echo home_url(); ?>/contact-us">Contact Us</a></li>
-                            <li><a href="<?php echo home_url(); ?>/history">History</a></li>
-                            <li><a href="#">Campus Tour</a></li>
-                            <li><a href="<?php echo home_url(); ?>/location">Location</a></li>
+                            <li><a href="<?php echo home_url(); ?>/about-us">关于我们</a></li>
+                            <li><a href="<?php echo home_url(); ?>/contact-us">联系我们</a></li>
+                            <li><a href="<?php echo home_url(); ?>/history">历史</a></li>
+                            <li><a href="#">校园一览</a></li>
+                            <li><a href="<?php echo home_url(); ?>/location">位置</a></li>
                         </ul>
                     </li>
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
-                           aria-expanded="false">Academics</a>
+                           aria-expanded="false">学术</a>
                         <ul class="dropdown-menu">
-                            <li><a href="#">Faculty</a></li>
-                            <li><a href="<?php echo home_url(); ?>/curriculum-overview">Curriculum Overview</a></li>
+                            <li><a href="#">教师团队</a></li>
+                            <li><a href="<?php echo home_url(); ?>/curriculum-overview">课程简介</a></li>
                             <li><a href="https://app.schoology.com/login">Schoology</a></li>
                         </ul>
                     </li>
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
-                           aria-expanded="false">Activities</a>
+                           aria-expanded="false">活动</a>
                         <ul class="dropdown-menu">
-                            <li><a href="<?php echo home_url(); ?>/clubs">Clubs</a></li>
-                            <li><a href="#">Arts</a></li>
-                            <li><a href="<?php echo home_url(); ?>/sports">Sports</a></li>
+                            <li><a href="<?php echo home_url(); ?>/clubs">社团</a></li>
+                            <li><a href="#">艺术</a></li>
+                            <li><a href="<?php echo home_url(); ?>/sports">体育</a></li>
                         </ul>
                     </li>
-                    <li><a href="#"><span class="glyphicon glyphicon-globe" aria-hidden="true"></span>中文</a></li>
+                    <li><a href="#"><span class="glyphicon glyphicon-globe" aria-hidden="true"></span>English</a></li>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
