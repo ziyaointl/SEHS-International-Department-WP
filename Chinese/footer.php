@@ -1,25 +1,25 @@
 	<div class="container-fluid" id="footer">
         <div class="row">
             <div class="col-md-2 col-md-offset-2 col-xs-offset-1 col-sm-3 col-xs-11 section-col">
-                <h4 class="footer-title">Campuses</h4>
-                <p><a href="http://sdshiyan.cn/" class="footer-link">Main Campus</a></p>
-                <p><a href="http://www.sdshiyan.cn/dongxiao/" class="footer-link">Eastern Campus</a></p>
-                <p><a href="http://www.sdshiyan.cn/xixiao/" class="footer-link">Western Campus</a></p>
+                <h4 class="footer-title">校区网站</h4>
+                <p><a href="http://sdshiyan.cn/" class="footer-link">本校</a></p>
+                <p><a href="http://www.sdshiyan.cn/dongxiao/" class="footer-link">东校</a></p>
+                <p><a href="http://www.sdshiyan.cn/xixiao/" class="footer-link">西校</a></p>
             </div>
             <div class="col-md-2 section-col col-md-offset-0 col-xs-offset-1 col-sm-3 col-xs-11">
-                <h4 class="footer-title">About</h4>
-                <p><a href="#" class="footer-link">About Us</a></p>
-                <p><a href="#" class="footer-link">Video</a></p>
-                <p><a href="#" class="footer-link">Faculty Team</a></p>
+                <h4 class="footer-title">关于</h4>
+                <p><a href="#" class="footer-link">关于我们</a></p>
+                <p><a href="#" class="footer-link">视频</a></p>
+                <p><a href="#" class="footer-link">教师团队</a></p>
             </div>
             <div class="col-md-2 section-col col-md-offset-0 col-xs-offset-1 col-sm-3 col-xs-11">
-                <h4 class="footer-title">Contact</h4>
-                <p><a href="#" class="footer-link">Contact Us</a></p>
-                <p><a href="#" class="footer-link">Location</a></p>
-                <p><a href="#" class="footer-link">Feedback</a></p>
+                <h4 class="footer-title">联系</h4>
+                <p><a href="#" class="footer-link">联系我们</a></p>
+                <p><a href="#" class="footer-link">位置</a></p>
+                <p><a href="#" class="footer-link">反馈</a></p>
             </div>
             <div class="col-md-2 section-col col-md-offset-0 col-xs-offset-1 col-sm-3 col-xs-11">
-                <h4 class="footer-title">Admin Portal</h4>
+                <h4 class="footer-title">管理</h4>
                 <?php wp_register( '<p class="footer-link">', '</p>'); ?>
                 <p class="footer-link">
                     <?php wp_loginout(); ?>
@@ -33,8 +33,7 @@
         </div>
         <div class="row">
             <div class="col-md-8 col-md-offset-2 col-xs-offset-1 col-xs-10 clearfix">
-                <p id="copyright-left">Copyright Shandong Experimental High School</p>
-                <p id="copyright-right">All rights reserved</p>
+                <p id="copyright-left">山东省实验中学版权所有</p>
             </div>
         </div>
     </div>
