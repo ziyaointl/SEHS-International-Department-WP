@@ -50,7 +50,7 @@
                             <li><a href="<?php echo home_url(); ?>/about-us">About Us</a></li>
                             <li><a href="<?php echo home_url(); ?>/contact-us">Contact Us</a></li>
                             <li><a href="<?php echo home_url(); ?>/history">History</a></li>
-                            <li><a href="#">Campus Tour</a></li>
+                            <li><a href="<?php echo home_url(); ?>/campus-tour">Campus Tour</a></li>
                             <li><a href="<?php echo home_url(); ?>/location">Location</a></li>
                         </ul>
                     </li>
@@ -58,9 +58,8 @@
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
                            aria-expanded="false">Academics</a>
                         <ul class="dropdown-menu">
-                            <li><a href="#">Faculty</a></li>
+                            <li><a href="<?php echo home_url(); ?>/faculty">Faculty</a></li>
                             <li><a href="<?php echo home_url(); ?>/curriculum-overview">Curriculum Overview</a></li>
-                            <li><a href="https://app.schoology.com/login">Schoology</a></li>
                         </ul>
                     </li>
                     <li class="dropdown">
@@ -68,8 +67,8 @@
                            aria-expanded="false">Activities</a>
                         <ul class="dropdown-menu">
                             <li><a href="<?php echo home_url(); ?>/clubs">Clubs</a></li>
-                            <li><a href="#">Arts</a></li>
-                            <li><a href="<?php echo home_url(); ?>/sports">Sports</a></li>
+                            <li><a href="<?php echo home_url(); ?>/arts">Arts</a></li>
+                            <li><a href="<?php echo home_url(); ?>/athletics">Athletics</a></li>
                         </ul>
                     </li>
                     <li><a href="#"><span class="glyphicon glyphicon-globe" aria-hidden="true"></span>中文</a></li>

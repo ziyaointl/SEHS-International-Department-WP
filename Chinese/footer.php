@@ -7,16 +7,8 @@
                 <p><a href="http://www.sdshiyan.cn/xixiao/" class="footer-link">西校</a></p>
             </div>
             <div class="col-md-2 section-col col-md-offset-0 col-xs-offset-1 col-sm-3 col-xs-11">
-                <h4 class="footer-title">关于</h4>
-                <p><a href="#" class="footer-link">关于我们</a></p>
-                <p><a href="#" class="footer-link">视频</a></p>
-                <p><a href="#" class="footer-link">教师团队</a></p>
-            </div>
-            <div class="col-md-2 section-col col-md-offset-0 col-xs-offset-1 col-sm-3 col-xs-11">
-                <h4 class="footer-title">联系</h4>
-                <p><a href="#" class="footer-link">联系我们</a></p>
-                <p><a href="#" class="footer-link">位置</a></p>
-                <p><a href="#" class="footer-link">反馈</a></p>
+                <h4 class="footer-title">链接</h4>
+                <p><a href="<?php echo home_url(); ?>/feedback" class="footer-link">反馈</a></p>
             </div>
             <div class="col-md-2 section-col col-md-offset-0 col-xs-offset-1 col-sm-3 col-xs-11">
                 <h4 class="footer-title">管理</h4>

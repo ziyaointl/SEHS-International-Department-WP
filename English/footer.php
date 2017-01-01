@@ -7,16 +7,8 @@
                 <p><a href="http://www.sdshiyan.cn/xixiao/" class="footer-link">Western Campus</a></p>
             </div>
             <div class="col-md-2 section-col col-md-offset-0 col-xs-offset-1 col-sm-3 col-xs-11">
-                <h4 class="footer-title">About</h4>
-                <p><a href="#" class="footer-link">About Us</a></p>
-                <p><a href="#" class="footer-link">Video</a></p>
-                <p><a href="#" class="footer-link">Faculty Team</a></p>
-            </div>
-            <div class="col-md-2 section-col col-md-offset-0 col-xs-offset-1 col-sm-3 col-xs-11">
-                <h4 class="footer-title">Contact</h4>
-                <p><a href="#" class="footer-link">Contact Us</a></p>
-                <p><a href="#" class="footer-link">Location</a></p>
-                <p><a href="#" class="footer-link">Feedback</a></p>
+                <h4 class="footer-title">Helpful Links</h4>
+                <p><a href="<?php echo home_url(); ?>/feedback" class="footer-link">Feedback</a></p>
             </div>
             <div class="col-md-2 section-col col-md-offset-0 col-xs-offset-1 col-sm-3 col-xs-11">
                 <h4 class="footer-title">Admin Portal</h4>

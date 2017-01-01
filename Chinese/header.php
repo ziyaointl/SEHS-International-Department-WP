@@ -50,7 +50,7 @@
                             <li><a href="<?php echo home_url(); ?>/about-us">关于我们</a></li>
                             <li><a href="<?php echo home_url(); ?>/contact-us">联系我们</a></li>
                             <li><a href="<?php echo home_url(); ?>/history">历史</a></li>
-                            <li><a href="#">校园一览</a></li>
+                            <li><a href="<?php echo home_url(); ?>/campus-tour">校园一览</a></li>
                             <li><a href="<?php echo home_url(); ?>/location">位置</a></li>
                         </ul>
                     </li>
@@ -58,9 +58,8 @@
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
                            aria-expanded="false">学术</a>
                         <ul class="dropdown-menu">
-                            <li><a href="#">教师团队</a></li>
+                            <li><a href="<?php echo home_url(); ?>/faculty">教师团队</a></li>
                             <li><a href="<?php echo home_url(); ?>/curriculum-overview">课程简介</a></li>
-                            <li><a href="https://app.schoology.com/login">Schoology</a></li>
                         </ul>
                     </li>
                     <li class="dropdown">
@@ -68,8 +67,8 @@
                            aria-expanded="false">活动</a>
                         <ul class="dropdown-menu">
                             <li><a href="<?php echo home_url(); ?>/clubs">社团</a></li>
-                            <li><a href="#">艺术</a></li>
-                            <li><a href="<?php echo home_url(); ?>/sports">体育</a></li>
+                            <li><a href="<?php echo home_url(); ?>/arts">艺术</a></li>
+                            <li><a href="<?php echo home_url(); ?>/athletics">体育</a></li>
                         </ul>
                     </li>
                     <li><a href="#"><span class="glyphicon glyphicon-globe" aria-hidden="true"></span>English</a></li>
