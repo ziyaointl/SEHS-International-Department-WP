@@ -59,6 +59,6 @@
 		<!-- /article -->
 	<?php endif; ?>
 		<?php wp_reset_postdata(); ?>
-	<a href="<?php echo home_url(); ?>/category/news/" id="back-button" class="btn btn-default">Back to List</a>
+	<a href="javascript:history.back()" id="back-button" class="btn btn-default">Back</a>
 	</div>
 <?php get_footer(); ?>
