@@ -1,4 +1,9 @@
 <?php
+function remove_last_directory($dir) {
+    $index = strrpos($dir, "/");
+    return substr($dir, 0, $index);
+}
+
 remove_action('wp_head', 'print_emoji_detection_script', 7);
 remove_action('wp_print_styles', 'print_emoji_styles');
 
