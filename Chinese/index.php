@@ -16,7 +16,7 @@
                 <div class="row">
                     <div class="col-lg-4 col-lg-offset-6 col-md-5 col-md-offset-5 clearfix" id="cover-description">
                         <a href="<?php the_permalink() ?>"><h1><?php the_title(); ?></h1></a>
-                        <a href="<?php the_permalink() ?>" class="btn read-more">Read More</a>
+                        <a href="<?php the_permalink() ?>" class="btn read-more">查看详情</a>
                     </div>
                 </div>
             </div>
@@ -33,7 +33,7 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-sm-8 col-sm-offset-2" id="news">
-                <h1>News</h1>
+                <h1>新闻</h1>
                 <div class="horizontal-line"></div>
                 <div class="row">
                     <div class="col-lg-6 section-col">
@@ -68,8 +68,7 @@
                         endif;
                         wp_reset_postdata();
                         ?>
-                        <a href="<?php site_url(); ?>/category/news/" id="news-button" class="btn btn-default">More
-                            News</a>
+                        <a href="<?php site_url(); ?>/category/news/" id="news-button" class="btn btn-default">更多新闻</a>
                     </div>
                 </div>
             </div>
@@ -79,8 +78,8 @@
 <div class="container-fluid" id="featured-clubs">
     <div class="row">
         <div class="col-sm-8 col-sm-offset-2">
-            <h1 id="featured-clubs-title">Featured Clubs</h1>
-            <a href="<?php site_url(); ?>/club/" class="btn-default btn" id="more-clubs">More Clubs</a>
+            <h1 id="featured-clubs-title">社团</h1>
+            <a href="<?php site_url(); ?>/club/" class="btn-default btn" id="more-clubs">更多社团</a>
             <div class="row">
 
                 <?php
@@ -113,9 +112,8 @@
 <div class="container-fluid" id="outstanding-individual">
     <div class="row">
         <div class="col-sm-8 col-sm-offset-2">
-            <h1 id="individual-title">Outstanding Individual</h1>
-            <a href="<?php site_url(); ?>/individual/" class="btn btn-default" id="more-individuals">More
-                Individuals</a>
+            <h1 id="individual-title">学子风采</h1>
+            <a href="<?php site_url(); ?>/individual/" class="btn btn-default" id="more-individuals">更多学子</a>
             <div class="row">
 
                 <?php
@@ -131,7 +129,7 @@
                             <p>
                                 <?php html5wp_excerpt(30);?>
                             </p>
-                            <a href="<?php the_permalink();?>" class="btn btn-default" id="individual-read-more">Read More</a>
+                            <a href="<?php the_permalink();?>" class="btn btn-default" id="individual-read-more">继续阅读</a>
                         </div>
                         <?php
                     endwhile;
@@ -144,7 +142,7 @@
     </div>
 </div>
 <div class="container-fluid" id="featured-video">
-    <h1>2015 Graduation Video</h1>
+    <h1>2015毕业纪念视频</h1>
     <div>
         <iframe frameborder="0" id="video-iframe"
                 src="https://v.qq.com/iframe/player.html?vid=y0302fv2ipv&tiny=0&auto=0" allowfullscreen></iframe>
