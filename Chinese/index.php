@@ -68,7 +68,7 @@
                         endif;
                         wp_reset_postdata();
                         ?>
-                        <a href="<?php site_url(); ?>/category/news/" id="news-button" class="btn btn-default">更多新闻</a>
+                        <a href="<?php echo home_url(); ?>/category/news/" id="news-button" class="btn btn-default">更多新闻</a>
                     </div>
                 </div>
             </div>
@@ -79,7 +79,7 @@
     <div class="row">
         <div class="col-sm-8 col-sm-offset-2">
             <h1 id="featured-clubs-title">社团</h1>
-            <a href="<?php site_url(); ?>/club/" class="btn-default btn" id="more-clubs">更多社团</a>
+            <a href="<?php echo home_url(); ?>/club/" class="btn-default btn" id="more-clubs">更多社团</a>
             <div class="row">
 
                 <?php
@@ -113,7 +113,7 @@
     <div class="row">
         <div class="col-sm-8 col-sm-offset-2">
             <h1 id="individual-title">学子风采</h1>
-            <a href="<?php site_url(); ?>/individual/" class="btn btn-default" id="more-individuals">更多学子</a>
+            <a href="<?php echo home_url(); ?>/individual/" class="btn btn-default" id="more-individuals">更多学子</a>
             <div class="row">
 
                 <?php

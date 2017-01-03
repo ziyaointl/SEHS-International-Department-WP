@@ -68,7 +68,7 @@
                         endif;
                         wp_reset_postdata();
                         ?>
-                        <a href="<?php site_url(); ?>/category/news/" id="news-button" class="btn btn-default">More
+                        <a href="<?php echo home_url(); ?>/category/news/" id="news-button" class="btn btn-default">More
                             News</a>
                     </div>
                 </div>
@@ -80,7 +80,7 @@
     <div class="row">
         <div class="col-sm-8 col-sm-offset-2">
             <h1 id="featured-clubs-title">Featured Clubs</h1>
-            <a href="<?php site_url(); ?>/club/" class="btn-default btn" id="more-clubs">More Clubs</a>
+            <a href="<?php echo home_url(); ?>/club/" class="btn-default btn" id="more-clubs">More Clubs</a>
             <div class="row">
 
                 <?php
@@ -114,7 +114,7 @@
     <div class="row">
         <div class="col-sm-8 col-sm-offset-2">
             <h1 id="individual-title">Outstanding Individual</h1>
-            <a href="<?php site_url(); ?>/individual/" class="btn btn-default" id="more-individuals">More
+            <a href="<?php echo home_url(); ?>/individual/" class="btn btn-default" id="more-individuals">More
                 Individuals</a>
             <div class="row">
 
