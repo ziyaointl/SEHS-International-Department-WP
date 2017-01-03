@@ -1,12 +1,17 @@
 <?php if (have_posts()): while (have_posts()) : the_post(); ?>
 	<div class="catalog-block clearfix">
-		<?php if ( has_post_thumbnail()) : // Check if thumbnail exists ?>
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-md-4">
+                        <?php if ( has_post_thumbnail()) : // Check if thumbnail exists ?>
                         <a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>">
                             <?php the_post_thumbnail('medium-thumbnail', ['class' => 'catalog-img']);?>
                         </a>
+                        <?php else: ?>
+                            <a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>">
+                                <img src="<?php echo home_url();?>/wp-content/uploads/2017/01/placeholder_600x400-6-400x225.png" alt="placeholder" class="catalog-img">
+                            </a>
+                        <?php endif; ?>
                     </div>
                     <div class="info col-md-8">
                         <a href="<?php the_permalink();?>" class="catalog-post-title">
@@ -49,7 +54,6 @@
 //                ?>
 <!--			</p>-->
 <!--            <a href="--><?php //the_permalink(); ?><!--" class="btn read-more">Read More</a>-->
-		<?php endif; ?>
     </div>
 <?php endwhile; ?>
 <!--    <div class="pagination-outer">-->
