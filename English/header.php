@@ -58,7 +58,6 @@
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
                            aria-expanded="false">Academics</a>
                         <ul class="dropdown-menu">
-                            <li><a href="<?php echo home_url(); ?>/faculty">Faculty</a></li>
                             <li><a href="<?php echo home_url(); ?>/curriculum-overview">Curriculum Overview</a></li>
                         </ul>
                     </li>

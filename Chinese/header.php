@@ -58,7 +58,6 @@
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
                            aria-expanded="false">学术</a>
                         <ul class="dropdown-menu">
-                            <li><a href="<?php echo home_url(); ?>/faculty">教师团队</a></li>
                             <li><a href="<?php echo home_url(); ?>/curriculum-overview">课程简介</a></li>
                         </ul>
                     </li>
