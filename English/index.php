@@ -91,7 +91,7 @@
                         <div class="col-lg-4 section-col">
                             <a href="<?php the_permalink(); ?>">
                                 <div class="club-frame">
-                                    <?php the_post_thumbnail('full', ['class' => 'club-img']) ?>
+                                    <?php the_post_thumbnail('club-thumbnail', ['class' => 'club-img']) ?>
                                     <div class="overlay">
                                         <div class="floor-fade">
                                             <h2 class="club-title"><?php the_title(); ?></h2>
