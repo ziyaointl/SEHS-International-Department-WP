@@ -59,7 +59,7 @@
 
 	<?php endif; ?>
 
-	<a href="<?php echo home_url();?>/club/" id="back-button" class="btn btn-default">Back to List</a>
+	<a href="<?php echo home_url();?>/club/" id="back-button" class="btn btn-default">返回列表</a>
 	</div>
 	<!-- /section -->
 

@@ -24,7 +24,7 @@
             <!-- /article -->
 
         <?php endif; ?>
-        <a href="<?php echo home_url();?>" id="back-button" class="btn btn-default">Back to Home</a>
+        <a href="<?php echo home_url();?>" id="back-button" class="btn btn-default">返回主页</a>
     </div>
     <!-- /section -->
 
