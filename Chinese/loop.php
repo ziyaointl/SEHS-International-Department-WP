@@ -60,10 +60,10 @@
 <!--        --><?php //get_template_part('pagination'); ?>
 <!--    </div>-->
     <?php if (get_previous_posts_link()) : ?>
-        <a href="<?php echo get_previous_posts_page_link(); ?>" class="btn read-more previous-page">< Previous Page</a>
+        <a href="<?php echo get_previous_posts_page_link(); ?>" class="btn read-more previous-page">< 上一页</a>
     <?php endif; ?>
     <?php if (get_next_posts_link()) : ?>
-        <a href="<?php echo get_next_posts_page_link(); ?>" class="btn next-page read-more">Next Page ></a>
+        <a href="<?php echo get_next_posts_page_link(); ?>" class="btn next-page read-more">下一页 ></a>
     <?php endif;
     wp_reset_postdata();?>
 <?php else: ?>
