@@ -28,7 +28,7 @@
 				<?php if ( has_post_thumbnail()) : // Check if thumbnail exists ?>
 				<!-- post thumbnail -->
 				<a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>">
-					<?php the_post_thumbnail('medium-thumbnail');?>
+					<?php the_post_thumbnail('portrait');?>
 				</a>
                 <?php endif; ?>
 				<!-- /post thumbnail -->
