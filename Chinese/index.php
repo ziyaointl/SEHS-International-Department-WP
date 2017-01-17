@@ -142,7 +142,7 @@
     </div>
 </div>
 <div class="container-fluid" id="featured-video">
-    <h1>2015毕业纪念视频</h1>
+    <h1>2016毕业纪念视频</h1>
     <div>
         <iframe frameborder="0" id="video-iframe"
                 src="https://v.qq.com/iframe/player.html?vid=y0302fv2ipv&tiny=0&auto=0" allowfullscreen></iframe>
