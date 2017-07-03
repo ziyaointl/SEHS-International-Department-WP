@@ -70,6 +70,7 @@
                             <li><a href="<?php echo home_url(); ?>/athletics">体育</a></li>
                         </ul>
                     </li>
+                    <li><a href="http://sdshiyan.cn/">本校首页</a></li>
                     <li><a href="http://intl.sehs.science"><span class="glyphicon glyphicon-globe" aria-hidden="true"></span>English</a></li>
                 </ul>
             </div>
