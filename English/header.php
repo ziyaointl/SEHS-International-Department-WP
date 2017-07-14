@@ -26,10 +26,10 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a href="<?php echo home_url(); ?>" class="navbar-brand visible-lg visible-md"><img
+                <a href="<?php echo home_url(); ?>" class="navbar-brand visible-lg"><img
                         src="<?php echo get_template_directory_uri(); ?>/img/logo.png" alt="Logo"
                         id="logo-with-text"></a>
-                <a href="<?php echo home_url(); ?>" class="navbar-brand visible-sm visible-xs"><img
+                <a href="<?php echo home_url(); ?>" class="navbar-brand visible-sm visible-xs visible-md"><img
                         src="<?php echo get_template_directory_uri(); ?>/img/logo-square.png" alt="Logo" id="logo"></a>
             </div>
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
