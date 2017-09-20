@@ -68,6 +68,7 @@
                             <li><a href="<?php echo home_url(); ?>/clubs">Clubs</a></li>
                             <li><a href="<?php echo home_url(); ?>/arts">Arts</a></li>
                             <li><a href="<?php echo home_url(); ?>/athletics">Athletics</a></li>
+                            <li><a href="<?php echo home_url(); ?>/studentgov">Student Ambassadors</a></li>
                         </ul>
                     </li>
                     <li><a href="http://www.sdshiyan.cn/english/">Main Campus</a></li>
