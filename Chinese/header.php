@@ -68,6 +68,7 @@
                             <li><a href="<?php echo home_url(); ?>/clubs">社团</a></li>
                             <li><a href="<?php echo home_url(); ?>/arts">艺术</a></li>
                             <li><a href="<?php echo home_url(); ?>/athletics">体育</a></li>
+                            <li><a href="<?php echo home_url(); ?>/studentgov">学生大使</a></li>
                         </ul>
                     </li>
                     <li><a href="http://sdshiyan.cn/">本校首页</a></li>
