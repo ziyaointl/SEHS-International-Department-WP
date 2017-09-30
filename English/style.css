@@ -7014,7 +7014,7 @@ body {
   color: white;
 }
 #featured-video {
-  background: url('img/video-background.png') no-repeat center center;
+  background: url('img/video-background.jpg') no-repeat center center;
   webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
