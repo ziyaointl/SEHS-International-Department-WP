@@ -71,8 +71,7 @@
                             <li><a href="<?php echo home_url(); ?>/studentgov">Student Ambassadors</a></li>
                         </ul>
                     </li>
-                    <li><a href="http://www.sdshiyan.cn/english/">Main Campus</a></li>
-                    <li><a href="http://intl.cn.sehs.science"><span class="glyphicon glyphicon-globe" aria-hidden="true"></span>中文</a></li>
+                    <li><a href="http://www.sdshiyan.cn/"><span class="glyphicon glyphicon-globe" aria-hidden="true"></span>中文</a></li>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
